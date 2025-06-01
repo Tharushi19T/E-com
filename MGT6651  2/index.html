@@ -1,0 +1,629 @@
+<html lang="en">
+<head>
+   !<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>AccessoRise.lk</title>
+
+<head>
+    
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="mystylesheet.css">
+
+</head>
+<body>
+
+    <!--header section start-->
+    <header class="header">
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#home" class="logo"> <img src= "images\36424236-designstyle-beauty-o.png" alt="" width="75px" height="100px"></a>
+        
+
+        <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <button class="btnLogin-popup">Login</button>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-heart" id="heart-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <!--<div class="fas fa-user" id="user-btn"></div>-->
+            <div class="fas fa-search" id="search-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"> </span>
+                <img src="images\This item is unavailable - Etsy.jpg" alt="" >
+                <div class="content">
+                    <h3>Ring</h3>
+                    <div class="price">Rs:250.00 /-</div>
+               </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                    <img src="images\Skhek.jpg" alt="" >
+                <div class="content">
+                    <h3>Ear Ring</h3>
+                    <div class= "price">Rs:200.00 /-</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                    <img src="images\1000056856-300x375.jpg" alt="">
+                <div class="content">
+                    <h3>Hair Band</h3>
+                    <div class="price">Rs:190.00 /-</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                    <img src="images\1_69US $ _5pcs_set Sweet Color Girl Hair Clip Hairband Bobby Pin Barrette Hairpin Headdress Accessories Beauty Styling Tools New Arrival - Hair Clips - AliExpress.jpg" alt="" >
+                    <div class="content">
+                    <h3>Hair Clips</h3>
+                    <div class="price">Rs:250.00 /-</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">check out now</a>
+
+        </div>
+
+        <div class="fav-items-container">
+            <div class="fav-item">
+                <span class="fas fa-fav"> </span>
+                <img src="images\1000077448-300x375.jpg" alt="" >
+                <div class="content">
+                    <h3>Scrunchy</h3>
+                    <div class="price">Rs:190.00 /-</div>
+               </div>
+            </div>
+
+            <div class="fav-item">
+                <span class="fas fa-fav"></span>
+                    <img src="images\1000081244-300x375.jpg" alt="" >
+                <div class="content">
+                    <h3>Scrunchy</h3>
+                    <div class= "price">Rs:285.00 /-</div>
+                </div>
+            </div>
+
+            <div class="fav-item">
+                <span class="fas fa-fav"></span>
+                    <img src="images\1000077477-1-300x375.jpg" alt="">
+                <div class="content">
+                    <h3>Scrunchy</h3>
+                    <div class="price">Rs:190.00 /-</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">Add to favourite</a>
+
+        </div>
+
+    </header>
+
+    
+    <!--home section starts-->
+    <section class="Home" id="home">
+        <div class="content">
+            <h3>Accesso Rise </h3>
+            <span>Elevating Your Style with Handcrafted Accessories</span>
+            <p>We are vibrant online destination for fashion enthusiasts seeking unique and 
+                handcrafted accessory items to complement their style. We dedicated to 
+                curating a delightful collection of accessories, including jewellery, scarves, and hair items 
+                designed to accentuate your individuality and elevate your fashion game</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            <div class="form-box-login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required style="text-transform: lowercase;">
+                        <label>Email</label>
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+    
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+    
+                    <button type="submit" class="btns">Login</button>
+    
+                    <div class="login-register">
+                        <p>Don't have an account?
+                        <a href="#" class="register-link">Register</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box-register">
+                <form action="connect.php" method="post">
+                    <h2 style="text-align: center; font-size: 2em">Registration</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" name="userName" required>
+                            <label>Username</label>
+                        </div>
+        
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" name="email" style="text-transform: lowercase;">
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                            <input type="password" name="password" required>
+                            <label>Password</label>
+                        </div>
+        
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Agree to the terms & conditions</label>
+                        
+                        </div>
+        
+                        <button type="submit" class="btns">Register</button>
+        
+                        <div class="login-register">
+                            <p>Already have an account?
+                            <a href="#" class="login-link">Login</a>
+                            </p>
+                        </div>
+                    </form>
+                </form>
+            </div>
+
+        </div>
+            
+    </section>
+
+    <!--about section starts-->
+    <section class="about" id="about">
+        <h1 class="heading"> <span> About</span> Us</h1>
+        <div class="row">
+            <div class="video-container">
+                <video src="images\istockphoto-1376525764-640_adpp_is.mp4" autoplay muted repeated></video>
+
+                <h3>Best accessories seller</h3>
+            </div>
+
+            <div class="content">
+                <h3>why choose us</h3>
+                <p>Why we offer a wide range of accessory items that cater to various tastes and occasions. Whether 
+                    you're looking for elegant pieces for a special event or everyday essentials to enhance your daily 
+                    look, seamless shopping experience with a diverse array of high-quality products.</p>
+
+                 <p>Browse our collections, discover the perfect accessories to express your personality, and join us 
+                    on a journey to "Accesso Rise" your style to new heights. Shop with us today and make a statement 
+                    without saying a word.</p>
+                 <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--icon section starts-->
+    <section class="icon-container">
+       <div class="icons">
+        <img src="images\service-1.png" alt="">
+        <div class="info">
+            <h3>Free Delivery</h3>
+            <span>On orders above Rs:1000/=</span>
+        </div>
+       </div>
+
+       <div class="icons">
+        <img src="images\category-1.png" alt="">
+        <div class="info">
+            <h3>Offer and gifts</h3>
+            <span>selected orders</span>
+        </div>
+       </div>
+
+       <div class="icons">
+        <img src="images\service-2.png" alt="">
+        <div class="info">
+            <h3>Secure payment</h3>
+            <span>Protect by paypal</span>
+        </div>
+       </div>
+    </section>
+
+    <!--products section stars-->
+    <section class="Products" id="products">
+        <h1 class="heading">Latest <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images\1000077477-1-300x375.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Scrunchies</h3>
+                    <div class="price">Rs:190.00<span>Rs:200.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images\1000077448-300x375.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Scrunchies</h3>
+                    <div class="price">Rs:190.00<span>Rs:200.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images\IMG_20221206_172813_431-300x375.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Scrunchies</h3>
+                    <div class="price">Rs:450.00<span>Rs:500.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images\1000057007-300x375.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Necklase</h3>
+                    <div class="price">Rs:237.50<span>Rs:250.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images\1000034696-300x375.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Ear rings</h3>
+                    <div class="price">Rs:135.00<span>Rs:150.00</span></div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images\bg.png" alt="" >
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Ear Rings</h3>
+                    <div class="price">Rs:261.25<span>Rs:275.00</span></div>
+                </div>
+            </div> 
+            
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images\X-Mas-Twinkle-Tail-Scrunchie--300x375.jpg" alt="" >
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>scrunchy</h3>
+                    <div class="price">Rs:190.00<span>Rs:200.00</span></div>
+                </div>
+            </div>  
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images\Faux Pearl & Rhinestone Decor Butterfly Drop Earrings.jpg" alt="" height="400px" width="200px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>ear rings</h3>
+                    <div class="price">Rs:225.00<span>Rs:250.00</span></div>
+                </div>
+            </div>  
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images\Faux Pearl Decor Layered Necklace.jpg" alt="" height="400px" width="200px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>necklase</h3>
+                    <div class="price">Rs:270.00<span>Rs:300.00</span></div>
+                </div>
+            </div>  
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images\34Decent.jpg" alt="" height="400px" width="200px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>bangles</h3>
+                    <div class="price">Rs:630.00<span>Rs:700.00</span></div>
+                </div>
+            </div>  
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images\p i n __ c r y b a b y g h 0 s t.jpg" alt="" height="400px" width="200px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>scrunchies</h3>
+                    <div class="price">Rs:270.00<span>Rs:300.00</span></div>
+                </div>
+            </div>  
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images\1000080470-3-300x375.jpg" alt="" >
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>scrunchies</h3>
+                    <div class="price">Rs:190.00<span>Rs:200.00</span></div>
+                </div>
+            </div>  
+
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images\1000081244-300x375.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>scrunchies</h3>
+                    <div class="price">Rs:285.00<span>Rs:300.00</span></div>
+                </div>
+            </div>  
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="images\1000074303-300x375.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>scrunchies</h3>
+                    <div class="price">Rs:475.00<span>Rs:500.00</span></div>
+                </div>
+            </div>  
+
+
+        </div>
+    </section>
+
+    <!--review secyion stars-->
+
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I received the parcel, those are so cute! Thank you so much for the service!!</p>
+                <div class="user">
+                    <img src="images\pic-4.png" alt="">
+                    <div class="user-info">
+                        <h3>Tekla</h3>
+                        <span>Happy customer</span>
+                    </div>
+                </div>
+
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I got the stuff, scrunchies were amazing! Will definitely order again!!</p>
+                <div class="user">
+                    <img src="images\pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>Rose</h3>
+                        <span>Happy customer</span>
+                    </div>
+                </div>
+
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>So adorable and cute! Highly recommend your product!!</p>
+                <div class="user">
+                    <img src="images\pic-6.png" alt="">
+                    <div class="user-info">
+                        <h3>volga</h3>
+                        <span>Happy customer</span>
+                    </div>
+                </div>
+
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+        </div>
+
+        
+    </section>
+
+    <!--contact section start-->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> us</h1>
+        <div class="row">
+            <form action>
+                <input type="text" placeholder="Name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="Number" class="box">
+                <textarea name="" class="box" placeholder="Messege" cols="30" rows="10"></textarea>
+                <input type="submit" value="send messege" class="btn">
+            </form>
+            <div class="image">
+                <img src="images\download.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--footer start-->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#products">products</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#btnLogin-popup">my account</a>
+                <a href="#cart-btn">my order</a>
+                <a href="#heart-btn">my favorite</a>
+            </div>
+
+            <div class="box">
+                <h3>location</h3>
+                <a href="#">Kandy</a>
+                <a href="#">Colombo</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">011 2456987</a>
+                <a href="#" style="text-transform:lowercase;">accessorise@gmail.com</a>
+                <a href="#">No-10 temple road,kandy</a>
+                
+                <img src="images\OIP.jpg" alt="" height="40px" width="120px">
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>Accesso Rise.lk</span> all rights reserved</div>
+    </section>
+
+    <!--js file link-->
+    <script src="myscript.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+</html>
